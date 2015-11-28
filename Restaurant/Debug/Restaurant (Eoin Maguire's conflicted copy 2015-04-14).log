@@ -1,0 +1,76 @@
+﻿Build started 14/04/2015 13:18:04.
+     1>Project "C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Restaurant\Restaurant.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt bookings.c menu.c orderNew.c OS.c password.c receipt.c Restaurant.c tables.c
+         tables.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(22): warning C4047: '==' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(5): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(60): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(125): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(228): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(230): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(232): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(233): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(234): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(235): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(287): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(289): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(291): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(292): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(293): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(294): warning C4047: '=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\tables.c(309): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+         Restaurant.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\restaurant.c(45): warning C4013: 'CLRSCR' undefined; assuming extern returning int
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\restaurant.c(142): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\restaurant.c(211): warning C4033: 'onlyPosFloat' must return a value
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\restaurant.c(233): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         receipt.c
+         password.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\password.c(24): warning C4033: 'checkPassword' must return a value
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\password.c(57): warning C4033: 'checkPassword' must return a value
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\password.c(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\password.c(159): warning C4018: '<' : signed/unsigned mismatch
+         OS.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\os.c(22): warning C4013: 'system' undefined; assuming extern returning int
+         orderNew.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\ordernew.c(11): warning C4101: 'payopt' : unreferenced local variable
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\ordernew.c(16): warning C4101: 'tip' : unreferenced local variable
+         menu.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(88): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(179): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(186): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(194): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(202): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(210): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(218): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(226): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\menu.c(256): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+         bookings.c
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(250): warning C4047: '==' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(296): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(323): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(363): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(384): warning C4047: '!=' : 'size_t' differs in levels of indirection from 'void *'
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\bookings.c(570): warning C4172: returning address of local variable or temporary
+         Generating Code...
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\password.c(101): warning C4715: 'checkPassword' : not all control paths return a value
+     1>c:\users\eoin\dropbox\programming project\restaurant\restaurant\restaurant.c(234): warning C4715: 'onlyPosFloat' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Debug\Restaurant.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Debug\Restaurant.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Debug\Restaurant.lib" /MACHINE:X86 Debug\bookings.obj
+         Debug\menu.obj
+         Debug\orderNew.obj
+         Debug\OS.obj
+         Debug\password.obj
+         Debug\receipt.obj
+         Debug\Restaurant.obj
+         Debug\stdafx.obj
+         Debug\tables.obj
+         Restaurant.vcxproj -> C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Debug\Restaurant.exe
+     1>Done Building Project "C:\Users\Eoin\Dropbox\Programming Project\Restaurant\Restaurant\Restaurant.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.71
